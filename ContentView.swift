@@ -2,23 +2,21 @@
 //  ContentView.swift
 //  SwiftUIPractice
 //
-//  Created by Sarfaraz on 05/01/26.
+//  Created by Nagachaitanya on 05/01/26.
 //
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+struct ContentView: View{
+    var body: some View{
+        Button("Hello world"){
+            print("Button clicked")
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
 }
+
